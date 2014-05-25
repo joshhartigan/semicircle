@@ -5,5 +5,8 @@ Semicircle
 
 ---------------------------------------------------------------------------------------------
 
-### Day 1 - May 23rd 2014
+### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
+
+### Day 2
+`fibonacci.cpp` - An annotated C program for calculating fibonacci sequences.
