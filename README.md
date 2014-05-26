@@ -13,3 +13,6 @@ Semicircle
 
 ### Day 3
 `vowels.js` - Basic 'string searching' in JavaScript - checking for vowels in a string.
+
+### Day 4
+`conjecture.hs` - Collatz numbers / sequence calculator in Haskell
