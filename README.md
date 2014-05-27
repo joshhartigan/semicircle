@@ -16,3 +16,6 @@ Semicircle
 
 ### Day 4
 `conjecture.hs` - Collatz numbers / sequence calculator in Haskell
+
+### Day 5
+`bubble.go` - An annotated program with a bubble sort function and main function to call the sort on a list.
