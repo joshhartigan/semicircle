@@ -1,4 +1,6 @@
-Semicircle :: 10.8%
+<img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
+
+10.8%
 ===================
 
 180 Days of >= 30 Minute Coding
