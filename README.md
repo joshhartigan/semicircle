@@ -1,5 +1,5 @@
-Semicircle :: 9%
-================
+Semicircle :: 10.8%
+===================
 
 180 Days of >= 30 Minute Coding
 
@@ -19,3 +19,6 @@ Semicircle :: 9%
 
 ### Day 5
 `bubble.go` - An annotated program with a bubble sort function and main function to call the sort on a list.
+
+### Day 6
+`euler.go` - [Project Euler](http://www.projecteuler.net)'s problems 1 and 6, in go.
