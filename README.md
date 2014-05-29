@@ -1,6 +1,6 @@
 <img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
 
-10.8%
+12.6%
 ===================
 
 180 Days of >= 30 Minute Coding
@@ -24,3 +24,6 @@
 
 ### Day 6
 `euler.go` - [Project Euler](http://www.projecteuler.net)'s problems 1 and 6, in go.
+
+### Day 7
+`averages.py` - Multiple functions for lists with Python. The shortest program yet :worried:
