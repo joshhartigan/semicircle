@@ -27,3 +27,9 @@
 
 ### Day 7
 `averages.py` - Multiple functions for lists with Python. The shortest program yet :worried:
+
+### Day 8
+`piglatin.js` - Words => Pig Latin Translator, rittenway inay avascriptjay.
+
+### Day 9
+`polishNotation.go` - solve() function for evaluating calculations in polish notation.
