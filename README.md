@@ -41,3 +41,6 @@
 
 ### Day 11
 `caesar.py` - Caesar Cipher
+
+### Day 12
+`fizzBuzz.pas` - My first ever program in Pascal -- fizzbuzz.
