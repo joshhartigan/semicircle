@@ -1,6 +1,6 @@
 <img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
 
-12.6%
+23.4%
 ===================
 
 180 Days of Coding
@@ -44,3 +44,6 @@
 
 ### Day 12
 `fizzBuzz.pas` - My first ever program in Pascal -- fizzbuzz.
+
+### Day 13
+`addTwoInputs.bf` - Getting two integers from input and adding them together in brainf\*\*\*
