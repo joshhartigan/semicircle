@@ -1,6 +1,6 @@
 <img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
 
-23.4%
+25.2%
 ===================
 
 180 Days of Coding
