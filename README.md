@@ -47,3 +47,6 @@
 
 ### Day 13
 `addTwoInputs.bf` - Getting two integers from input and adding them together in brainf\*\*\*
+
+### Day 14
+`wordGuess.hs` - A guessing game in Haskell. It doesn't work yet :worried:, I'll try and fix it.
