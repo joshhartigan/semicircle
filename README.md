@@ -53,3 +53,6 @@
 
 ### Day 15
 intrst - Not a small program, but a website. [In its own repository](https://github.com/joshhartigan/intrst)
+
+### Day 16
+`mode.py` - Calculating the most frequent integer in an array. Also see [my writing on it.](https://github.com/joshhartigan/learn-programming/blob/master/Most%20Frequent%20Integer.md)
