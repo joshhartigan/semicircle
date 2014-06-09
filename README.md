@@ -1,6 +1,8 @@
+## If you have any ideas for programs, please write them in an issue!
+
 <img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
 
-0.094%
+10%
 ===================
 
 180 Days of Coding
@@ -59,3 +61,6 @@ intrst - Not a small program, but a website. [In its own repository](https://git
 
 ### Day 17
 `crayon.py` - A random, graphical generator. Uses the pygame library (`sudo apt-get install python-pygame`)
+
+### Day 18
+`collatz.pas` - My *second* collatz conjecture, in pascal. I didn't have any ideas.
