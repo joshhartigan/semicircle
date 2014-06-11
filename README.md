@@ -2,9 +2,6 @@
 
 <img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
 
-10%
-===================
-
 180 Days of Coding
 
 ---------------------------------------------------------------------------------------------
@@ -65,5 +62,10 @@ intrst - Not a small program, but a website. [In its own repository](https://git
 ### Day 18
 `collatz.pas` - My *second* collatz conjecture, in pascal. I didn't have any ideas.
 
-### Day 10
+### Day 19
 `Game.java`, `Entity.java`, and `Keyboard.java` - these make up a *very* simple platformer.
+
+### Day 20
+`rand7.cpp` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
+writeup of this program.
+
