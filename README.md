@@ -69,3 +69,7 @@ intrst - Not a small program, but a website. [In its own repository](https://git
 `rand7.cpp` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
 writeup of this program.
 
+-----------------------------------------------------------------------------------------------
+
+### Day 21
+`palindrome/*` - Programs in multiple languages to return whether or not a string is a palindrome.
