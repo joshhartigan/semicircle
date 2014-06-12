@@ -43,6 +43,7 @@ for line in markdown:
             # generate italics
             if word[0] == "*" and word[1] != "*" and noDot[len(noDot.strip()) - 1] == "*":
                 html.write("<em>" + word.strip().replace("*","") + "</em> ")
+            # generate bolds
             elif word[0:2] == "**" and noDot[len(noDot)-2:len(noDot)] == "**":
                 html.write("<strong>" + word.strip().replace("**","") +
                 "</strong> ")
