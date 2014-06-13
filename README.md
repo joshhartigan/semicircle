@@ -73,3 +73,6 @@ writeup of this program.
 
 ### Day 21
 `palindrome/*` - Programs in multiple languages to return whether or not a string is a palindrome.
+
+### Day 22
+`anagram.clj` - An anagram-checker, beginning to familiarise myself with [clojure](http://www.clojure.org/)'s syntax.
