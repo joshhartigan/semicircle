@@ -76,3 +76,6 @@ writeup of this program.
 
 ### Day 22
 `anagram.clj` - An anagram-checker, beginning to familiarise myself with [clojure](http://www.clojure.org/)'s syntax.
+
+### Day 23
+[joshhartigan.github.io](http://.joshhartigan.github.io/) - Redesign and beginnings of content overhaul. Also, a script for converting bulk markdown to HTML.
