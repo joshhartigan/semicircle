@@ -79,3 +79,6 @@ writeup of this program.
 
 ### Day 23
 [joshhartigan.github.io](http://.joshhartigan.github.io/) - Redesign and beginnings of content overhaul. Also, a script for converting bulk markdown to HTML.
+
+### Day 24
+An Introduction to Python on my site. Contains 3 very small programs - the focus is on the writing.
