@@ -85,3 +85,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 25
 `neominim/*` - Beginnings of a parser for a 'sequel' to my minimalist programming language, [minim](https://github.com/joshhartigan/minim).
+
+### Day 26
+`eva.clj` - Mathematical Expression Evaluation, in Clojure.
