@@ -88,3 +88,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 26
 `eva.clj` - Mathematical Expression Evaluation, in Clojure.
+
+### Day 27
+`pythagoras.go` - Multiple functions written in Go that take advantage of Pythagoras's theorem.
