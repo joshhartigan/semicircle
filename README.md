@@ -91,3 +91,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 27
 `pythagoras.go` - Multiple functions written in Go that take advantage of Pythagoras's theorem.
+
+### Day 28
+`nextPrime.cpp` - A function that takes in a number as an argument, and returns the next prime number.
