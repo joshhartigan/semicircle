@@ -94,3 +94,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 28
 `nextPrime.cpp` - A function that takes in a number as an argument, and returns the next prime number.
+
+###### Day 29
+`myTake.hs` - An reimplementation of Haskell's `take` function.
