@@ -95,5 +95,8 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 ### Day 28
 `nextPrime.cpp` - A function that takes in a number as an argument, and returns the next prime number.
 
-###### Day 29
+### Day 29
 `myTake.hs` - An reimplementation of Haskell's `take` function.
+
+### Day 30
+`monkey.go` - Command line, file input, polish notation, calculator. Put instructions in a text file and run `./monkey myFile.txt`. Results are printed. To build, `go build monkey.go`
