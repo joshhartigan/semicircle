@@ -1,10 +1,4 @@
-## If you have any ideas for programs, please write them in an issue!
-
-<img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif"/>
-
-180 Days of Coding
-
----------------------------------------------------------------------------------------------
+<img src="http://mathworld.wolfram.com/images/eps-gif/ArbelosAnnotated_1000.gif" style="width: 50%; height: 50%"/>
 
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
