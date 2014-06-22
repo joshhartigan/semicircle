@@ -92,3 +92,8 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 30
 `monkey.go` - Command line, file input, polish notation, calculator. Put instructions in a text file and run `./monkey myFile.txt`. Results are printed. To build, `go build monkey.go`
+
+-----------------------------------------------------------------------------------------------
+
+### Day 31
+`useless.py` - An obfuscated, complicated way of printing integers. Take up the challenge of figuring out how it works! :wink:
