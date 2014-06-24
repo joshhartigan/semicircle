@@ -1,4 +1,4 @@
-# Semicircle - 32 / 180
+# Semicircle - 33 / 180
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
@@ -101,3 +101,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 32
 `monkey.go` - The beginning of an implementation of variable manipulation and storage.
+
+### Day 33
+`monkey.go` - Full variable implementation, *major* cleanup, and [documentation](https://github.com/joshhartigan/semicircle/blob/master/monkey.md).
