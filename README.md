@@ -1,4 +1,4 @@
-# Semicircle - 31 / 180
+# Semicircle - 32 / 180
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
@@ -98,3 +98,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 31
 `useless.py` - An obfuscated, complicated way of printing integers. Take up the challenge of figuring out how it works! :wink:
+
+### Day 32
+`monkey.go` - The beginning of an implementation of variable manipulation and storage.
