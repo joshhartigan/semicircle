@@ -8,6 +8,18 @@ import (
     "strconv"
 )
 
+var variables map[string]int
+
+// determine whether a token is a variable reference or
+// an integer literal, and return it.
+func getvalue(item string) int {
+    if num, err := strconv.Atoi(item); err == nil {
+        return num
+    }
+    return variables[item]
+}
+
+// error management
 func check(e error) {
     if e != nil {
         panic(e)
@@ -34,21 +46,20 @@ func main() {
     lines := openfile(os.Args[1])
     for _, line := range lines {
         words := strings.Split(line, " ")
-        // convert function parameters to integer types
-        if words[0] == "+" || words[0] == "-" || words[0] == "*" || words[0] == "/" {
-            x, xerr = strconv.ParseInt(words[1], 10, 0)
-            check(xerr)
-            y, yerr = strconv.ParseInt(words[2], 10, 0)
-            check(yerr)
-        }
+        // convert function parameters to integer types and operate on them
         if words[0] == "+" {
+            x, y := getvalue(words[1]), getvalue(words[2])
             fmt.Println(x + y)
         } else if words[0] == "-" {
+            x, y := getvalue(words[1]), getvalue(words[2])
             fmt.Println(x - y)
         } else if words[0] == "*" {
+            x, y := getvalue(words[1]), getvalue(words[2])
             fmt.Println(x * y)
         } else if words[0] == "/" {
-            fmt.Println(x / y)
+            x, y := getvalue(words[1]), getvalue(words[2])
+            var z float32 = float32(x) / float32(y)
+            fmt.Println(z)
         }
     }
 }
