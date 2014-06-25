@@ -40,22 +40,33 @@ func getvalue(item string) float32 {
     return variables[item]
 }
 
-func operate(operandA, operandB string, op string) float32 {
-    if op == "+" {
-        x, y := getvalue(operandA), getvalue(operandB)
-        return float32(x + y)
-    } else if op == "-" {
-        x, y := getvalue(operandA), getvalue(operandB)
-        return float32(x - y)
-    } else if op == "*" {
-        x, y := getvalue(operandA), getvalue(operandB)
-        return float32(x * y)
-    } else if op == "/" {
-        x, y := getvalue(operandA), getvalue(operandB)
-        var z float32 = float32(x) / float32(y)
-        return z
-    } // else:
-    return 0
+func operate(operands []string, op string) float32 {
+    result := 0
+    // o = index in operands[]
+    for o := 0; o < len(operands); o++ {
+        if op == "+" {
+            if o == 0 { result := operands[0] }
+            else {
+                result += operands[o]
+            }
+        } else if op == "-" {
+            if o == 0 { result := operands[0] }
+            else {
+                result -= operands[o]
+            }
+        } else if op == "*" {
+            if o == 0 { result := operands[0] }
+            else {
+                result *= operands[o]
+            }
+        } else if op == "/" {
+            if o == 0 { result := operands[0] }
+            else {
+                result /= operands[o]
+            }
+        }
+    }
+    return float32(result)
 }
 
 var x, y int64 // these will be assigned to function params
@@ -65,12 +76,15 @@ func main() {
     lines := openfile(os.Args[1])
     for _, line := range lines {
         words := strings.Split(line, " ")
-        if len(words) == 3 {
-            fmt.Println(operate(words[1], words[2], words[0]))
-        } else if len(words) == 5 {
-            if words[3] == ":" {
-                variables[words[4]] = operate(words[1], words[2], words[0])
+        // expressions are printed
+        if words[len(words)-1] == ";" {
+           fmt.Println(operate(, words[0]))
+        } else {
+            // variable assignment
+            if words[len(words)-2] == ":" {
+                variables[words[len(words)-1]] = operate(words[1], words[2], words[0])
             }
         }
     }
 }
+
