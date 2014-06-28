@@ -4,7 +4,7 @@ package main
  * The 'fmt' package enables formatted input-output,
  * similar to C's 'stdio.h' or C++'s 'iostream'
  * libraries.
- * I think it stands for 'format'.
+ * It stands for 'format'.
  */
 import "fmt"
 
