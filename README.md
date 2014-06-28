@@ -107,3 +107,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 34
 `monkey.go` - Full implementation of multiple parameters. Also, semicolons are needed for non-assignment expressions. I will take a break from monkey now.
+
+### Day 35
+`sdl/*` - A Graphical program, using libSDL, in C++. My first graphical program not in Java or Python.
