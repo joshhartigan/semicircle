@@ -1,5 +1,5 @@
 // Author: Josh Hartigan
-// Description: Given the coordinates of two points in a 10x10 matrix,
+// Description: Given the coordinates of two points in a matrix,
 //              this program will return the vector of the shortest path
 //              to get from the first point to the other, in a situation
 //              where the movement must be straight and non-diagonal.
