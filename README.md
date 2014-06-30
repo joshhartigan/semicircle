@@ -110,3 +110,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 35
 `sdl/*` - A Graphical program, using libSDL, in C++. My first graphical program not in Java or Python.
+
+### Day 36
+`timeMeasurement.cpp` - Given x number of seconds, this program will show how many hours and minutes (and remainder seconds) are in x.
