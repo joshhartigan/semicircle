@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/joshhartigan/semicircle/master/card.png"/>
+<img src="http://i.imgur.com/1yBlrzM.png"/>
 
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
@@ -117,3 +117,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 37
 `shortPath.cpp` - Finds the shortest non-diagonal path between two points in a matrix.
+
+### Day 38
+`shortPath.cpp` - Implementation of diagonal paths.
