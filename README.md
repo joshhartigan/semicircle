@@ -1,4 +1,5 @@
-# Semicircle - 33 / 180
+<img src="https://raw.githubusercontent.com/joshhartigan/semicircle/master/semicircle.png"/>
+
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
