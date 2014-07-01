@@ -4,7 +4,7 @@
 //              to get from the first point to the other, in a situation
 //              where the movement must be straight and non-diagonal.
 
-#define _USE_MATH_DEFINES // this is for the pi constant
+#define _USE_MATH_DEFINES // for the pi constant
 
 #include <iostream>
 #include <array>
