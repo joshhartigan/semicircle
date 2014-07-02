@@ -1,4 +1,4 @@
-<img src="http://imgur.com/H1TMvv9"/>
+<img src="http://imgur.com/H1TMvv9.png"/>
 
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
