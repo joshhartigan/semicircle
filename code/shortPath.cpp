@@ -30,6 +30,9 @@ std::array<double, 2> diagonalPath(int x1, int y1, int x2, int y2) {
   double xdiff = std::abs(x1 - x2);
   double ydiff = std::abs(y1 - y2);
   angle = atan(xdiff / ydiff) * 180 / M_PI;
+  if (y2 < y1) {
+    angle *= -1;
+  }
 
   std::array<double, 2> path = {{ distance, angle }};
   return path;
