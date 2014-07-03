@@ -1,5 +1,3 @@
-<img src="http://imgur.com/H1TMvv9.png"/>
-
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
@@ -123,3 +121,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 39
 `monkey.go` - Cleanup, fixing of variable usage, better function naming.
+
+### Day 40
+`pyramid.cpp` - Classic text-based pyramid drawing program.
