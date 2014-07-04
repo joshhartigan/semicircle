@@ -18,7 +18,7 @@ except ValueError:
 
 posts = reddit.get_subreddit(subreddit).get_top(limit=postNumber)
 
-print "ReddiTerm in /r/" + subreddit + ":"
+print "\nReddiTerm in /r/" + subreddit + ":"
 print "Press return to iterate through, posts, type 'q<RET>' to quit."
 
 command = raw_input(": ")
@@ -32,4 +32,4 @@ while command != "q":
   print "\t[" + post.url + "]"
   command = raw_input(": ")
 
-print "*** ReddiTerm - Quitting."
+print "*** ReddiTerm - Quitting.\n"
