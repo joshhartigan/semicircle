@@ -124,3 +124,8 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 40
 `pyramid.cpp` - Classic text-based pyramid drawing program.
+
+-----------------------------------------------------------------------------------------------
+
+### Day 41
+`redditerm.py` - Simple command line interface for reddit.
