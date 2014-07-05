@@ -129,3 +129,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 41
 `redditerm.py` - Simple command line interface for reddit.
+
+### Day 42
+`web/*` - Beginnings of a website redesign.
