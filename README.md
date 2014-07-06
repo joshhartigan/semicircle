@@ -132,3 +132,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 42
 `web/*` - Beginnings of a website redesign.
+
+### Day 43
+`coderbyte_challenges.py` - Solutions to various challenges from www.coderbyte.com, in Python.
