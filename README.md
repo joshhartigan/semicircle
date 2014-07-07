@@ -135,3 +135,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 43
 `coderbyte_challenges.py` - Solutions to various challenges from www.coderbyte.com, in Python.
+
+### Day 44
+`coderbyte_challenges.py` - Two more challenges, very small as I had little time. It's not like anyone reads this anyway.

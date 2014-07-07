@@ -42,3 +42,12 @@ def letter_capitalize(string):
         My version here also removes numbers. """
     return "".join([i for i in string if not i.isdigit()]).title()
 
+def word_count(string):
+    """ Return the number of words in a string. """
+    return len(string.split(" "))
+
+def palindrome(string):
+    punctuation = ("?","!",":","?","/","\\","\"","£","$","%","^","&","*","(",")",
+                   "-","_","+","=","[","]","{","}","@","|")
+    without_punctuation = "".join(c for c in string if c not in punctuation).lower()
+    return without_punctuation == without_punctuation[::-1]
