@@ -138,3 +138,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 44
 `coderbyte_challenges.py` - Two more challenges, very small as I had little time. It's not like anyone reads this anyway.
+
+### Day 45
+Beginnings of an article on [my website](http://joshhartigan.github.io) about the stack and the heap.
