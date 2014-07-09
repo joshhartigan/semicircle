@@ -141,3 +141,6 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 
 ### Day 45
 Beginnings of an article on [my website](http://joshhartigan.github.io) about the stack and the heap.
+
+### Day 46
+`icogen.py` - Random icon / avatar generator.
