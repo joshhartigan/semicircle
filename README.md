@@ -1,3 +1,6 @@
+<h1 style="text-align: center">:hand: Paused :hand:</h1>
+I've had to put this project on a pause, due to the discovery of how difficult it is to come up with a new program almost every day (for me at least). The goal of 180 still remains, however.
+
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
