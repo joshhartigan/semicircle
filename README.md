@@ -1,5 +1,4 @@
-<h1 style="text-align: center">:hand: Paused :hand:</h1>
-I've had to put this project on a pause, due to the discovery of how difficult it is to come up with a new program almost every day (for me at least). The goal of 180 still remains, however.
+Steadily reaching a goal of 180 pocket-sized projects.
 
 ### Day 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
@@ -147,3 +146,6 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 46
 `icogen.py` - Random icon / avatar generator.
+
+### Day 47
+`happy_numbers.py` - A task set in the [karan/projects](https://github.com/karan/Projects) repository.
