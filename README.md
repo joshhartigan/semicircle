@@ -149,3 +149,6 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 47
 `happy_numbers.py` - A task set in the [karan/projects](https://github.com/karan/Projects) repository.
+
+### Day 48
+`quick_sort.r` - The quick sort algorithm, implemented in R - a statistical programming language.
