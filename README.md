@@ -152,3 +152,6 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 48
 `quick_sort.r` - The quick sort algorithm, implemented in R - a statistical programming language.
+
+### Day 49
+`haxe/*` - A look at Haxe, a language that compiles down to lots of other languages (in this instance, JavaScript)
