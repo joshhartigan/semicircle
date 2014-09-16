@@ -155,3 +155,6 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 49
 `haxe/*` - A look at Haxe, a language that compiles down to lots of other languages (in this instance, JavaScript)
+
+### Day 50
+`braces.py` - Convert python with braces and semicolons into normal python.
