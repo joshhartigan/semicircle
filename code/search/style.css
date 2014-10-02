@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+body {
+  margin: 80px auto;
+  width: 65%;
+  color: #272822;
+  font-size: 18pt;
+  font-family: Inconsolata;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 30px;
+  font-size: 30px;
+  font-family: Inconsolata;
+}
+
+a {
+  color: #1983CF;
+  text-decoration: none;
+} a:hover {
+  text-decoration: underline;
+}
+
+.results {
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #272822;
+  padding: 5px 5px;
+  background: #eee;
+} .results:empty {
+  display: none;
+}
+

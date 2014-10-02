@@ -30,7 +30,7 @@ Steadily reaching a goal of 180 pocket-sized projects.
 ### Day 10
 `sparkdown.py` - An incredibly lightweight, kind of buggy, markdown implementation in python.
 
------------------------------------------------------------------------------------------------
+--
 
 ### Day 11
 `caesar.py` - Caesar Cipher
@@ -63,7 +63,7 @@ intrst - Not a small program, but a website. [In its own repository](https://git
 `rand7.cpp` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
 writeup of this program.
 
------------------------------------------------------------------------------------------------
+--
 
 ### Day 21
 `palindrome/*` - Programs in multiple languages to return whether or not a string is a palindrome.
@@ -95,7 +95,7 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 ### Day 30
 `monkey.go` - Command line, file input, polish notation, calculator. Put instructions in a text file and run `./monkey myFile.txt`. Results are printed. To build, `go build monkey.go`
 
------------------------------------------------------------------------------------------------
+--
 
 ### Day 31
 `useless.py` - An obfuscated, complicated way of printing integers. Take up the challenge of figuring out how it works! :wink:
@@ -127,7 +127,7 @@ An Introduction to Python on my site. Contains 3 very small programs - the focus
 ### Day 40
 `pyramid.cpp` - Classic text-based pyramid drawing program.
 
------------------------------------------------------------------------------------------------
+--
 
 ### Day 41
 `redditerm.py` - Simple command line interface for reddit.
@@ -158,3 +158,10 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 50
 `braces.py` - Convert python with braces and semicolons into normal python.
+
+--
+
+### Day 51
+`search/*` - A search box for my GitHub repositories. Mostly working, but not
+100%.
+
