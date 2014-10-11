@@ -6,11 +6,7 @@ isString = (str) -> str[0] == '\'' and str[str.length - 1] == '\''
 
 isNumber = (str) -> not isNaN(str)
 
-isIdentifier = (str) -> /// ^
-  [^\s(),']   # anything but whitespace, '(', ')', ',', or '''.
-  +           # one or more of the previous
-  $           # end of word
-///.exec str
+isIdentifier = (str) -> /^[^\s(),']+$/.exec str
 
 isCall = (str) -> str[0] == '(' and str[str.length - 1] == ')'
 
