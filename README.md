@@ -165,3 +165,5 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 `search/*` - A search box for my GitHub repositories. Mostly working, but not
 100%.
 
+### Day 52
+`some_pleasant.coffee` - A port of some of the [pleasant](https://github.com/joshhartigan/pleasant) code into CoffeeScript.
