@@ -167,3 +167,8 @@ Beginnings of an article on [my website](http://joshhartigan.github.io) about th
 
 ### Day 52
 `some_pleasant.coffee` - A port of some of the [pleasant](https://github.com/joshhartigan/pleasant) code into CoffeeScript.
+
+### Day 53
+`greeter.rb` - A really, *really* simple Ruby program with a class, object
+instantiation, and method definitions / calls.
+
