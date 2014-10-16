@@ -1,174 +1,182 @@
-Steadily reaching a goal of 180 pocket-sized projects.
+Steadily reaching a goal of 180 pocket-sized projects / programs.
 
-### Day 1
+### Program 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
 
-### Day 2
+### Program 2
 `fibonacci.c` - An annotated C program for calculating fibonacci sequences.
 
-### Day 3
+### Program 3
 `vowels.js` - Basic 'string searching' in JavaScript - checking for vowels in a string.
 
-### Day 4
+### Program 4
 `conjecture.hs` - Collatz numbers / sequence calculator in Haskell
 
-### Day 5
+### Program 5
 `bubble.go` - An annotated program with a bubble sort function and main function to call the sort on a list.
 
-### Day 6
+### Program 6
 `euler.go` - [Project Euler](http://www.projecteuler.net)'s problems 1 and 6, in go.
 
-### Day 7
+### Program 7
 `averages.py` - Multiple functions for lists with Python. The shortest program yet :worried:
 
-### Day 8
+### Program 8
 `piglatin.js` - Words => Pig Latin Translator, rittenway inay avascriptjay.
 
-### Day 9
+### Program 9
 `polishNotation.go` - solve() function for evaluating calculations in polish notation.
 
-### Day 10
+### Program 10
 `sparkdown.py` - An incredibly lightweight, kind of buggy, markdown implementation in python.
 
 --
 
-### Day 11
+### Program 11
 `caesar.py` - Caesar Cipher
 
-### Day 12
+### Program 12
 `fizzBuzz.pas` - My first ever program in Pascal -- fizzbuzz.
 
-### Day 13
+### Program 13
 `addTwoInputs.bf` - Getting two integers from input and adding them together in brainf\*\*\*
 
-### Day 14
+### Program 14
 `wordGuess.hs` - A guessing game in Haskell. It doesn't work yet :worried:, I'll try and fix it.
 
-### Day 15
+### Program 15
 intrst - Not a small program, but a website. [In its own repository](https://github.com/joshhartigan/intrst)
 
-### Day 16
+### Program 16
 `mode.py` - Calculating the most frequent integer in an array. Also see [my writing on it.](https://github.com/joshhartigan/learn-programming/blob/master/Most%20Frequent%20Integer.md)
 
-### Day 17
+### Program 17
 `crayon.py` - A random, graphical generator. Uses the pygame library (`sudo apt-get install python-pygame`)
 
-### Day 18
+### Program 18
 `collatz.pas` - My *second* collatz conjecture, in pascal. I didn't have any ideas.
 
-### Day 19
+### Program 19
 `Game.java`, `Entity.java`, and `Keyboard.java` - these make up a *very* simple platformer.
 
-### Day 20
+### Program 20
 `rand7.cpp` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
 writeup of this program.
 
 --
 
-### Day 21
+### Program 21
 `palindrome/*` - Programs in multiple languages to return whether or not a string is a palindrome.
 
-### Day 22
+### Program 22
 `anagram.clj` - An anagram-checker, beginning to familiarise myself with [clojure](http://www.clojure.org/)'s syntax.
 
-### Day 23
+### Program 23
 [joshhartigan.github.io](http://.joshhartigan.github.io/) - Redesign and beginnings of content overhaul. Also, a script for converting bulk markdown to HTML.
 
-### Day 24
+### Program 24
 An Introduction to Python on my site. Contains 3 very small programs - the focus is on the writing.
 
-### Day 25
+### Program 25
 `neominim/*` - Beginnings of a parser for a 'sequel' to my minimalist programming language, [minim](https://github.com/joshhartigan/minim).
 
-### Day 26
+### Program 26
 `eva.clj` - Mathematical Expression Evaluation, in Clojure.
 
-### Day 27
+### Program 27
 `pythagoras.go` - Multiple functions written in Go that take advantage of Pythagoras's theorem.
 
-### Day 28
+### Program 28
 `nextPrime.cpp` - A function that takes in a number as an argument, and returns the next prime number.
 
-### Day 29
+### Program 29
 `myTake.hs` - An reimplementation of Haskell's `take` function.
 
-### Day 30
+### Program 30
 `monkey.go` - Command line, file input, polish notation, calculator. Put instructions in a text file and run `./monkey myFile.txt`. Results are printed. To build, `go build monkey.go`
 
 --
 
-### Day 31
+### Program 31
 `useless.py` - An obfuscated, complicated way of printing integers. Take up the challenge of figuring out how it works! :wink:
 
-### Day 32
+### Program 32
 `monkey.go` - The beginning of an implementation of variable manipulation and storage.
 
-### Day 33
+### Program 33
 `monkey.go` - Full variable implementation, *major* cleanup, and [documentation](https://github.com/joshhartigan/semicircle/blob/master/monkey.md).
 
-### Day 34
+### Program 34
 `monkey.go` - Full implementation of multiple parameters. Also, semicolons are needed for non-assignment expressions. I will take a break from monkey now.
 
-### Day 35
+### Program 35
 `sdl/*` - A Graphical program, using libSDL, in C++. My first graphical program not in Java or Python.
 
-### Day 36
+### Program 36
 `timeMeasurement.cpp` - Given x number of seconds, this program will show how many hours and minutes (and remainder seconds) are in x.
 
-### Day 37
+### Program 37
 `shortPath.cpp` - Finds the shortest non-diagonal path between two points in a matrix.
 
-### Day 38
+### Program 38
 `shortPath.cpp` - Implementation of diagonal paths.
 
-### Day 39
+### Program 39
 `monkey.go` - Cleanup, fixing of variable usage, better function naming.
 
-### Day 40
+### Program 40
 `pyramid.cpp` - Classic text-based pyramid drawing program.
 
 --
 
-### Day 41
+### Program 41
 `redditerm.py` - Simple command line interface for reddit.
 
-### Day 42
+### Program 42
 `web/*` - Beginnings of a website redesign.
 
-### Day 43
+### Program 43
 `coderbyte_challenges.py` - Solutions to various challenges from www.coderbyte.com, in Python.
 
-### Day 44
+### Program 44
 `coderbyte_challenges.py` - Two more challenges, very small as I had little time. It's not like anyone reads this anyway.
 
-### Day 45
+### Program 45
 Beginnings of an article on [my website](http://joshhartigan.github.io) about the stack and the heap.
 
-### Day 46
+### Program 46
 `icogen.py` - Random icon / avatar generator.
 
-### Day 47
+### Program 47
 `happy_numbers.py` - A task set in the [karan/projects](https://github.com/karan/Projects) repository.
 
-### Day 48
+### Program 48
 `quick_sort.r` - The quick sort algorithm, implemented in R - a statistical programming language.
 
-### Day 49
+### Program 49
 `haxe/*` - A look at Haxe, a language that compiles down to lots of other languages (in this instance, JavaScript)
 
-### Day 50
+### Program 50
 `braces.py` - Convert python with braces and semicolons into normal python.
 
 --
 
-### Day 51
+### Program 51
 `search/*` - A search box for my GitHub repositories. Mostly working, but not
 100%.
 
-### Day 52
+### Program 52
 `some_pleasant.coffee` - A port of some of the [pleasant](https://github.com/joshhartigan/pleasant) code into CoffeeScript.
 
-### Day 53
+### Program 53
 `greeter.rb` - A really, *really* simple Ruby program with a class, object
 instantiation, and method definitions / calls.
+
+### Program 54
+`nextPrime.rb` - A rewrite of `nextPrime.cpp` in Ruby.
+
+### Program 55
+`palindrome/coffeescript.coffee` and `palindrome/ruby.rb` - More simple
+palindrome programs.
+``
 

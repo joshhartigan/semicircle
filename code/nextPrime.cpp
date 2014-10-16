@@ -16,7 +16,7 @@ bool isPrime(int num) {
         // get square root as upper limit
         double doubleNum = static_cast<double>(num);
         int max = static_cast<int>(sqrt(doubleNum) + 1);
-        
+
         while (divisor <= max) {
             if (num % divisor == 0) {
                 prime = false;
