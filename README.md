@@ -180,3 +180,6 @@ instantiation, and method definitions / calls.
 palindrome programs.
 ``
 
+### Program 56
+`binary-tree.js` - A binary tree implementation in JavaScript.
+
