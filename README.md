@@ -183,3 +183,7 @@ palindrome programs.
 ### Program 56
 `binary-tree.js` - A binary tree implementation in JavaScript.
 
+### Program 57
+`HelloScala.scala` - A small look at the [scala programming
+language](http://scala-lang.org)
+
