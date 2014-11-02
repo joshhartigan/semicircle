@@ -187,7 +187,12 @@ palindrome programs.
 `HelloScala.scala` - A small look at the [scala programming
 language](http://scala-lang.org)
 
-### Program 60 - 1/3 complete
+### Program 58
 `run_cc.sh` - Compiles, runs, and removes C++ executables. Like a mask that
 disguises the compiler as an interpreter.
+
+### Program 59
+`nextPrime.hs` - Another next-prime program, done with functional programming.
+Shockingly short compared to the other next prime programs.
+
 
