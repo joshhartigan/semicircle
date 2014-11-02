@@ -187,3 +187,7 @@ palindrome programs.
 `HelloScala.scala` - A small look at the [scala programming
 language](http://scala-lang.org)
 
+### Program 60 - 1/3 complete
+`run_cc.sh` - Compiles, runs, and removes C++ executables. Like a mask that
+disguises the compiler as an interpreter.
+
