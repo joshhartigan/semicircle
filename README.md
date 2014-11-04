@@ -195,4 +195,7 @@ disguises the compiler as an interpreter.
 `nextPrime.hs` - Another next-prime program, done with functional programming.
 Shockingly short compared to the other next prime programs.
 
+### Program 60
+`fizzbuzz_stupid.py` - A ridiculous, verbose, and obfuscated FizzBuzz in python.
+Read the comments inside the file to understand.
 
