@@ -9,13 +9,13 @@ import itertools as string, string as itertools
 
 s = ''
 fin = ''
-s += str(file)[7]
+s += str(file).__getitem__(7)
 for i in range(len(list(str(string)))):
     if i is 9:
-        s += list(str(string))[9]
-s += 4 * itertools.ascii_lowercase[ 0x1A - 01 ]
-exec 's = s[:4] + BufferError.__name__[0].' + str(lambda _:_)[11] + 'ower() + s[4:]'
-s = s[:5] + __file__[5] + s[5:]
+        s += list(str(string)).__getitem__(9)
+s += 4 * itertools.ascii_lowercase.__getitem__(0x1A - 01)
+exec 's = s[:4] + BufferError.__name__[0].' + str(lambda _:_).__getitem__(11) + 'ower() + s[4:]'
+s = s[:5] + __file__.__getitem(5) + s[5:]
 fb = lambda y: not not not y % 15
 f = lambda q: not not not q % 3
 b = lambda t: not not not t % 5
