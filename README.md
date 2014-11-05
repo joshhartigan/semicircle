@@ -199,3 +199,8 @@ Shockingly short compared to the other next prime programs.
 `fizzbuzz_stupid.py` - A ridiculous, verbose, and obfuscated FizzBuzz in python.
 Read the comments inside the file to understand.
 
+--
+
+### Program 61
+`HelloScala.scala` - Added features to the Scala 'sandbox' file.
+
