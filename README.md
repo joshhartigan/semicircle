@@ -204,3 +204,6 @@ Read the comments inside the file to understand.
 ### Program 61
 `HelloScala.scala` - Added features to the Scala 'sandbox' file.
 
+### Program 62
+`bit-count.c` - Count the number of 1 bits in the binary form of a number.
+
