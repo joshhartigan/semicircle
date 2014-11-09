@@ -207,3 +207,6 @@ Read the comments inside the file to understand.
 ### Program 62
 `bit-count.c` - Count the number of 1 bits in the binary form of a number.
 
+### Program 63
+`extractor.cpp` - Extract elements from a vector.
+
