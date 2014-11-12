@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connections</title>
+    <style>
+      body {
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+
+    <canvas id="canvas" width=300 height=300></canvas>
+
+    <script type="text/javascript">
+      var ctx = document.getElementById('canvas').getContext('2d');
+
+      var SIZE = 250; // this includes a bit of padding
+      var POINT_SIZE = 10;
+
+      ctx.fillStyle = "orangered";
+      ctx.fillRect(0, 0, SIZE + 50, SIZE + 50);
+
+      ctx.fillStyle = "white";
+
+      var x1 = Math.floor( Math.random() * SIZE ) + 1,
+          y1 = Math.floor( Math.random() * SIZE ) + 1;
+      console.log(x1, y1);
+      ctx.fillRect(x1, y1, POINT_SIZE, POINT_SIZE);
+
+      var x2 = Math.floor( Math.random() * SIZE ) + 1,
+          y2 = Math.floor( Math.random() * SIZE ) + 1;
+      console.log(x2, y2);
+      ctx.fillRect(x2, y2, POINT_SIZE, POINT_SIZE);
+
+      document.addEventListener( 'mousemove', function(e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        if ( nearTo(x, x1) ) {
+          console.log('wow');
+        }
+      });
+
+      function nearTo(a, b) {
+        for (var i = -40; i < 40; i++) {
+          if (a + i == b) {
+            return true;
+          }
+        }
+        return false;
+      }
+    </script>
+
+  </body>
+</html>
