@@ -19,8 +19,7 @@
       var SIZE = 250; // this includes a bit of padding
       var POINT_SIZE = 10;
 
-      ctx.fillStyle = "orangered";
-      ctx.fillRect(0, 0, SIZE + 50, SIZE + 50);
+      clearScreen();
 
       ctx.fillStyle = "white";
 
@@ -37,13 +36,39 @@
       document.addEventListener( 'mousemove', function(e) {
         var x = e.clientX;
         var y = e.clientY;
-        if ( nearTo(x, x1) ) {
-          console.log('wow');
+
+        if ( nearTo(x, x1) && nearTo(y, y1) ) {
+          ctx.strokeStyle = 'white';
+          ctx.beginPath();
+          ctx.moveTo(x1, y1);
+          ctx.lineTo(x, y);
+          ctx.stroke();
+        }
+
+        if ( nearTo(x, x2) && nearTo(y, y2) ) {
+          ctx.strokeStyle = 'white';
+          ctx.beginPath();
+          ctx.moveTo(x2, y2);
+          ctx.lineTo(x, y);
+          ctx.stroke();
+        }
+
+        if (! ( nearTo(x, x1) && nearTo(y, y1) ) &&
+            ! ( nearTo(x, x2) && nearTo(y, y2) ) ) {
+          clearScreen();
+          ctx.fillStyle = 'white';
+          ctx.fillRect(x1, y1, POINT_SIZE, POINT_SIZE);
+          ctx.fillRect(x2, y2, POINT_SIZE, POINT_SIZE);
         }
       });
 
+      function clearScreen() {
+        ctx.fillStyle = "orangered";
+        ctx.fillRect(0, 0, SIZE + 50, SIZE + 50);
+      }
+
       function nearTo(a, b) {
-        for (var i = -40; i < 40; i++) {
+        for (var i = -100; i < 100; i++) {
           if (a + i == b) {
             return true;
           }
