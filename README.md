@@ -214,3 +214,7 @@ Read the comments inside the file to understand.
 `function-templates.cpp` - Learning about generic functions / function
 templating in C++.
 
+### Program 65
+`connections.html` - Drawing connections between points and the cursor. Via
+`<canvas>` and JavaScript.
+
