@@ -218,3 +218,7 @@ templating in C++.
 `connections.html` - Drawing connections between points and the cursor. Via
 `<canvas>` and JavaScript.
 
+### Program 66
+`snow.html` - A crazy, wintery (even though the background is orangered)
+web experiment.
+
