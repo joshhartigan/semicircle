@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chaser // Josh Hartigan</title>
+    <style>
+      canvas {
+        margin: 10% auto;
+        display: block;
+        width: 640px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <canvas id="canvas" width=640 height=480></canvas>
+
+    <script>
+      var ctx = document.getElementById('canvas').getContext('2d');
+      var WIDTH = 640;
+      var HEIGHT = 480;
+
+      ctx.fillStyle = 'orangered';
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    </script>
+
+  </body>
+</html>
+
