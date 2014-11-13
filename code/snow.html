@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chaser // Josh Hartigan</title>
+  </head>
+  <body>
+
+    <canvas id="canvas" width=1280 height=960></canvas>
+
+    <script>
+      var ctx = document.getElementById('canvas').getContext('2d');
+      var WIDTH = 1280;
+      var HEIGHT = 960;
+
+      ctx.fillStyle = 'orangered';
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+      document.addEventListener( 'mousemove', function(e) {
+        var x = e.clientX;
+        var y = e.clientY;
+
+        var chaserX, chaserY;
+        setInterval( function() {
+
+          chaserX = x * Math.random();
+          chaserY = y * Math.random();
+
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+          ctx.fillRect(chaserX, chaserY, 30, 30);
+
+        }, 400);
+
+      });
+    </script>
+
+  </body>
+</html>
+
