@@ -222,3 +222,5 @@ templating in C++.
 `snow.html` - A crazy, wintery (even though the background is orangered)
 web experiment.
 
+### Program 67
+`mann.vim` - *not actually a program* - a small vim color scheme
