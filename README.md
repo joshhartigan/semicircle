@@ -1,4 +1,4 @@
-Steadily reaching a goal of 180 pocket-sized projects / programs.
+Steadily reaching a goal of 180 pocket-sized programs / contributions.
 
 ### Program 1
 `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X)
@@ -178,7 +178,6 @@ instantiation, and method definitions / calls.
 ### Program 55
 `palindrome/coffeescript.coffee` and `palindrome/ruby.rb` - More simple
 palindrome programs.
-``
 
 ### Program 56
 `binary-tree.js` - A binary tree implementation in JavaScript.
@@ -224,3 +223,7 @@ web experiment.
 
 ### Program 67
 `mann.vim` - *not actually a program* - a small vim color scheme
+
+### Program 68
+`dupe-sort.cpp` - 'Sort' an array by creating a duplicate ordered array.
+
