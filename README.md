@@ -159,7 +159,7 @@ web experiment.
 
 **program 68** - `dupe-sort.cpp` - 'Sort' an array by creating a duplicate ordered array.
 
-**program 69** - `is-sudo.cpp` - I learnt how to detect root privileges, and implemented it in C.
+**program 69** - `is-sudo.c` - I learnt how to detect root privileges, and implemented it in C.
 
 **program 70** - `dictionary.js` - Minimal implementation of a hashtable /
 dictionary in JavaScript.
