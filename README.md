@@ -129,21 +129,18 @@ palindrome programs.
 **program 57** - `HelloScala.scala` - A small look at the [scala programming
 language](http://scala-lang.org)
 
-#### program 58
-`run_cc.sh` - Compiles, runs, and removes C++ executables. Like a mask that
+**program 58** - `run_cc.sh` - Compiles, runs, and removes C++ executables. Like a mask that
 disguises the compiler as an interpreter.
 
 **program 59** - `nextPrime.hs` - Another next-prime program, done with functional programming.
 Shockingly short compared to the other next prime programs.
 
-#### program 60
-`fizzbuzz_stupid.py` - A ridiculous, verbose, and obfuscated FizzBuzz in python.
+**program 60** - `fizzbuzz_stupid.py` - A ridiculous, verbose, and obfuscated FizzBuzz in python.
 Read the comments inside the file to understand.
 
 --
 
-#### program 61
-`HelloScala.scala` - Added features to the Scala 'sandbox' file.
+**program 61** - `HelloScala.scala` - Added features to the Scala 'sandbox' file.
 
 **program 62** - `bit-count.c` - Count the number of 1 bits in the binary form of a number.
 
