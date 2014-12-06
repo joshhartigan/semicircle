@@ -163,3 +163,11 @@ web experiment.
 
 **program 70** - `dictionary.js` - Minimal implementation of a hashtable /
 dictionary in JavaScript.
+
+--
+
+**program 71** - `c-euler-1.c` - The first ProjectEuler.net problem in C.
+
+**program 72** - `c-euler-2.c` - The second ProjectEuler.net problem in C.
+
+**program 73** - `c-euler-3.c` - The third ProjectEuler.net problem in C.
