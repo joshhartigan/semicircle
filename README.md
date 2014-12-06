@@ -1,5 +1,9 @@
 Steadily reaching a goal of 180 pocket-sized programs / contributions.
 
+### 40.56% complete
+
+--
+
 **program 1** - `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-programming-Example-Depth/dp/020170353X)
 
 **program 2** - `fibonacci.c` - An annotated C program for calculating fibonacci sequences.
