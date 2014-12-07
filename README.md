@@ -1,6 +1,6 @@
 Steadily reaching a goal of 180 pocket-sized programs / contributions.
 
-### 41.11% complete
+### 41.67% complete
 
 --
 
@@ -177,3 +177,5 @@ dictionary in JavaScript.
 **program 73** - `c-euler-3.c` - The third ProjectEuler.net problem in C.
 
 **program 74** - `three-d.html`- A first exercise with Three.js
+
+**program 75** - `three-d.html` - Added a sphere to follow the mouse dynamically.
