@@ -37,9 +37,15 @@
 
       var cube = new THREE.Mesh(
         new THREE.BoxGeometry(0.8, 0.8, 0.8),
-        new THREE.MeshBasicMaterial({ color: 0xff1234 })
+        new THREE.MeshLambertMaterial({ color: 0xff1234 })
       )
       scene.add(cube)
+
+      var follower = new THREE.Mesh(
+        new THREE.SphereGeometry(0.4, 16, 12),
+        new THREE.MeshLambertMaterial({ color: 0x1234ff })
+      )
+      scene.add(follower)
 
       camera.position.z = 5
 
@@ -75,6 +81,18 @@
 
         renderer.render(scene, camera)
       }
+
+      // follower follows the cursor
+      var vector
+      document.addEventListener( 'mousemove', function(event) {
+        var x =   (event.clientX / window.innerWidth)  * 2 - 1;
+        var y = - (event.clientY / window.innerHeight) * 2 + 1;
+
+        vector = new THREE.Vector3(x, y, 0.5).unproject(camera);
+
+        follower.position.x = vector.x * 10
+        follower.position.y = vector.y * 10
+      })
 
       render()
     </script>
