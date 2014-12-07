@@ -175,3 +175,5 @@ dictionary in JavaScript.
 **program 72** - `c-euler-2.c` - The second ProjectEuler.net problem in C.
 
 **program 73** - `c-euler-3.c` - The third ProjectEuler.net problem in C.
+
+**program 74** - `three-d.html`- A first exercise with Three.js
