@@ -25,7 +25,7 @@
       var geometry = new THREE.BoxGeometry(1, 1, 1)
       var material = new THREE.MeshBasicMaterial()
 
-      var directionalLight = new THREE.DirectionalLight(0xe1e2ff)
+      var directionalLight = new THREE.DirectionalLight(0xffffff, 1.5)
       directionalLight.position.set(2, 5, 4)
       scene.add(directionalLight)
 
@@ -46,6 +46,12 @@
         new THREE.MeshLambertMaterial({ color: 0x1234ff })
       )
       scene.add(follower)
+
+      var player = new THREE.Mesh(
+        new THREE.BoxGeometry(0.6, 0.6, 0.6),
+        new THREE.MeshLambertMaterial({ color: 0xf1f234 })
+      )
+      scene.add(player)
 
       camera.position.z = 5
 
@@ -92,6 +98,36 @@
 
         follower.position.x = vector.x * 10
         follower.position.y = vector.y * 10
+      })
+
+      // player is controlled with the arrow keys and WASD
+      document.addEventListener( 'keydown', function(event) {
+        var key = event.key
+
+        if ( [ 'w', 'up', 'ArrowUp', 'a', 'Left', 'ArrowLeft',
+               's', 'down', 'ArrowDown', 'd', 'Right', 'ArrowRight',
+               'e', 'q' ].indexOf(key) >= 0 ) {
+          event.preventDefault()
+        }
+
+        if (key === 'w' || key === 'Up' || key === 'ArrowUp') {
+          player.position.z -= 0.5
+        }
+        if (key === 'a' || key === 'Left' || key === 'ArrowLeft') {
+          player.position.x -= 0.5
+        }
+        if (key === 's' || key === 'Down' || key === 'ArrowDown') {
+          player.position.z += 0.5
+        }
+        if (key === 'd' || key === 'Right' || key === 'ArrowRight') {
+          player.position.x += 0.5
+        }
+        if (key === 'e') {
+          player.position.y += 0.5
+        }
+        if (key == 'q') {
+          player.position.y -= 0.5
+        }
       })
 
       render()
