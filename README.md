@@ -1,6 +1,6 @@
 Steadily reaching a goal of 180 pocket-sized programs / contributions.
 
-### 41.67% complete
+### 42.22% complete
 
 --
 
@@ -179,3 +179,5 @@ dictionary in JavaScript.
 **program 74** - `three-d.html`- A first exercise with Three.js
 
 **program 75** - `three-d.html` - Added a sphere to follow the mouse dynamically.
+
+**program 76** - `rg.rb` - Beginning to learn Gosu for Ruby. A movable square.
