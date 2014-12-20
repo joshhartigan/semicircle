@@ -175,3 +175,5 @@ dictionary in JavaScript.
 **program 75** - `three-d.html` - Added a sphere to follow the mouse dynamically.
 
 **program 76** - `rg.rb` - Beginning to learn Gosu for Ruby. A movable square.
+
+**program 77** - `HelloScala.scala` - An update with some more features of the Scala language
