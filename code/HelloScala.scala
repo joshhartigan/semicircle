@@ -1,10 +1,20 @@
-object HelloScala extends App {
+class Animal(age: Int) {
+  def makeNoise = { // implicit type
+    println("screech")
+  }
 
+  def getAgeInTenYears: Int = { // explicit type
+    ( (x: Int) => x + 10 ) (age)
+  }
+}
+
+object HelloScala extends App {
   println(10)
   println("Boo!")
 
   val x = 1234 // immutable [constant] value
   var y = 2014 // mutable value
+  y = 2013     // ... see?
 
   print( x.toString + " " )
   println(y)
@@ -56,15 +66,10 @@ object HelloScala extends App {
 
   val stringInterpolation: String = "String Interpolation"
   println(s"Scala supports $stringInterpolation")
+
+  // instantiation and random numbers
+  val dog = new Animal( scala.util.Random.nextInt(10) )
+  println( dog.getAgeInTenYears )
 }
 
-class Animal {
-  def makeNoise = { // implicit type
-    println("screech")
-  }
-
-  def getAge: Int = { // explicit type
-    10
-  }
-}
 
