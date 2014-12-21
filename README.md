@@ -177,3 +177,5 @@ dictionary in JavaScript.
 **program 76** - `rg.rb` - Beginning to learn Gosu for Ruby. A movable square.
 
 **program 77** - `HelloScala.scala` - An update with some more features of the Scala language
+
+**program 78** - `serve.js` - A simple Node program to host an html file on a server.
