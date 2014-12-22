@@ -179,3 +179,5 @@ dictionary in JavaScript.
 **program 77** - `HelloScala.scala` - An update with some more features of the Scala language
 
 **program 78** - `serve.js` - A simple Node program to host an html file on a server.
+
+**program 79** - `opposite-colors.py` - Experimental manipulation of hex code colors. Requires pygame (`pip install pygame`)
