@@ -3,23 +3,26 @@
 require 'gosu'
 
 class Rg < Gosu::Window
+  WIDTH = 640
+  HEIGHT = 480
+
   def initialize
-    super(640, 480, false)
+    super(WIDTH, HEIGHT, false)
     self.caption = 'games / rg'
 
-    @x = 300
-    @y = 220
+    @x = (WIDTH / 2) - 20
+    @y = (HEIGHT / 2) - 20
   end
 
   def update
     if button_down? Gosu::KbW
-      @y -= 5
+      if @y >= 20 then @y -= 5 end
     elsif button_down? Gosu::KbA
-      @x -= 5
+      if @x >= 0 then @x -= 5 end
     elsif button_down? Gosu::KbS
-      @y += 5
+      if @y <= (HEIGHT - 20) then @y += 5 end
     elsif button_down? Gosu::KbD
-      @x += 5
+      if @x <= (WIDTH - 20) then @x += 5 end
     end
   end
 
