@@ -181,3 +181,5 @@ dictionary in JavaScript.
 **program 78** - `serve.js` - A simple Node program to host an html file on a server.
 
 **program 79** - `opposite-colors.py` - Experimental manipulation of hex code colors. Requires pygame (`pip install pygame`)
+
+**program 80** - `try-rust.rs` - A first look at the Rust language.
