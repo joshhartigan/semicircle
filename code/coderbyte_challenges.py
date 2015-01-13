@@ -28,10 +28,7 @@ def longest_word(sentence):
 
 def x_o(string):
     """ Determine whether the number of 'x's in a string is the same as the number of 'o's. """
-    if string.count("x") == string.count("o"):
-        return True
-    else:
-        return False
+    return string.count("x") == string.count("o"):
 
 def simple_adding(num):
     """ Add up all the numbers from 1 to num. """
