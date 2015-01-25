@@ -27,3 +27,19 @@
 .files tr:hover {
   background: #ebebeb;
 }
+
+.breadcrumb strong.final-path {
+  -webkit-animation-name: grow_in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes grow_in {
+	0% { -webkit-transform: scaleX(0.3); }
+	40% { -webkit-transform: scaleX(1.02); }
+	60% { -webkit-transform: scaleX(0.98); }
+	80% { -webkit-transform: scaleX(1.01); }
+	100% { -webkit-transform: scaleX(0.98); }				
+	80% { -webkit-transform: scaleX(1.02); }
+	100% { -webkit-transform: scaleX(1); }		
+}
