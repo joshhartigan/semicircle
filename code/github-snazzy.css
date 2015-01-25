@@ -9,9 +9,9 @@
   border-color: #e5e5e5;
 }
 
-.repo-list-item { transition: all 0.3s; -webkit-filter: grayscale(100%); }
+.repo-list-item { transition: all 0.3s; opacity: 0.4; }
 .repo-list-item:hover {
-  -webkit-filter: grayscale(0);
+  opacity: 1;
 }
 
 .mini-repo-list li.public.source:hover {
