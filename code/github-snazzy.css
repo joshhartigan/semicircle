@@ -1,0 +1,29 @@
+.header-logo-invertocat { transition: all 0.5s; }  
+.header-logo-invertocat:hover {
+  transform: rotate(360deg);
+}
+
+.tabnav-tab { transition: all 0.2s; }
+.tabnav-tab:hover {
+  border-radius: 3px 3px 0 0;
+  border-color: #e5e5e5;
+}
+
+.repo-list-item { transition: all 0.3s; -webkit-filter: grayscale(100%); }
+.repo-list-item:hover {
+  -webkit-filter: grayscale(0);
+}
+
+.mini-repo-list li.public.source:hover {
+  background: #fafafa;
+}
+
+.boxed-group.flush { transition: all 0.2s;}
+.boxed-group.flush:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+}
+
+.files tr { transition: all 0.2s; }
+.files tr:hover {
+  background: #ebebeb;
+}
