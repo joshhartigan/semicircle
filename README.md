@@ -189,3 +189,5 @@ dictionary in JavaScript.
 **contribution 81** - `rg.rb` - Enabling edge-collision in the 'square-moving' game.
 
 **contribution 82** - `github-snazzy.css` - A stylesheet for GitHub that adds certain fancy effects.
+
+**contribution 83** - `mode.py` - Optimisation of a program I wrote for this repository about 8 months ago.
