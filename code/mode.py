@@ -1,20 +1,11 @@
-# an in-depth rundown of this program
-# can be found at:
-# http://joshhartigan.github.io/pages/most-frequent-int.html
-
 def mode(array):
     count = {}
     for elem in array:
         try:
             count[elem] += 1
         except (KeyError):
-            count[elem] = 1
-    # get max count
-    maximum = 0
-    modeKey = 0
-    for key in count.keys():
-        if count[key] > maximum:
-            maximum = count[key]
-            modeKey = key
-    return modeKey
-    
+            count[elem]  = 1
+    return count.keys()[ count.values().index( max(count.values()) ) ]
+
+# test
+print mode([1, 2, 4, 2, 1, 0, 4, 1]) # => 1
