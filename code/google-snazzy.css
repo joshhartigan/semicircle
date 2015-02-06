@@ -1,0 +1,31 @@
+/* top-bar background and always-on-top */
+.gb_Xb {
+  position: fixed !important;
+  z-index: 1000000;
+  background: #333 !important;
+}
+
+/* hide search button */
+#gbqfb {
+  display: none;
+}
+
+/* hide widget-y buttons */
+.gb_i.gb_Tc {
+  display: none;
+}
+
+/* grey google logo */
+.gb_Ra .gb_Ta {
+  -webkit-filter: contrast(0);
+  filter: contrast(0);
+}
+
+.g {
+  padding-left: 10px;
+}
+
+.g:hover {
+  padding-left: 9px;
+  border-left: 1px solid #aaa;
+}
