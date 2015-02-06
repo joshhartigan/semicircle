@@ -191,3 +191,5 @@ dictionary in JavaScript.
 **contribution 82** - `github-snazzy.css` - A stylesheet for GitHub that adds certain fancy effects.
 
 **contribution 83** - `mode.py` - Optimisation of a program I wrote for this repository about 8 months ago.
+
+**contribution 84** - `google-snazzy.css` - A stylesheet for Google that adds certain classy looks.
