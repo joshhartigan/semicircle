@@ -33,13 +33,15 @@
 
 (defn draw-state [state]
   ; fill grey
-  (q/background 200)
+  (q/background 225)
   ; rgb value for fill color
   (q/fill 200 0 0)
-  (q/rect 200 200 (:size state) (:size state)))
+  ; draw rect
+  (let [rect-size (- 250 (/ (:size state) 2))]
+    (q/rect rect-size rect-size (:size state) (:size state))))
 
 (q/defsketch zx
-  :title "zx | a program in clojure"
+  :title "zx"
   :size [500 500]
   :setup setup
   :update update-state
