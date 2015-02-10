@@ -197,3 +197,5 @@ dictionary in JavaScript.
 **contribution 85** - `fabulous.c` - Colourful curses program.
 
 **contribution 86** - `getenv.c` - A C program that can read environment variables.
+
+**contribution 87** - `more-clojure.clj` - A program with a self-descriptive title.
