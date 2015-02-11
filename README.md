@@ -203,3 +203,5 @@ dictionary in JavaScript.
 **contribution 88** - `zx.clj` - A graphical clojure program.
 
 **contribution 89** - `zx.clj` - Centering the square in the window.
+
+**contribution 90** - `nested-printer.py` - Print all elements of lists including the elements of nested lists.
