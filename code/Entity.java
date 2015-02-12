@@ -13,12 +13,12 @@ public class Entity {
 
     public Entity() {}
 
-    public Entity(int nx, int ny, int nwidth, int nheight, Color ncolor) {
-        x = nx;
-        y = ny;
-        width = nwidth;
-        height = nheight;
-        color = ncolor;
+    public Entity(int x, int y, int width, int height, Color color) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.color = color;
     }
 
     public void draw(Graphics g) {
