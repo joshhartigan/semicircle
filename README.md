@@ -205,3 +205,7 @@ dictionary in JavaScript.
 **contribution 89** - `zx.clj` - Centering the square in the window.
 
 **contribution 90** - `nested-printer.py` - Print all elements of lists including the elements of nested lists.
+
+--
+
+**contribution 91** - `self-raise/*` - A function that raises each element of an array to itself, in multiple languages.
