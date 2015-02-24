@@ -211,3 +211,7 @@ dictionary in JavaScript.
 **contribution 91** - `self-raise/*` - A function that raises each element of an array to itself, in multiple languages.
 
 **contribution 92** - `fire_grid.py` - A graphical experiment.
+
+**contribution 93** - `noughts-and-crosses.rb` - Self explanatory. WIP.
+
+**contribution 94** - `self-raise/clojure.clj` - A tiny bug fix.
