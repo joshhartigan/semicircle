@@ -215,3 +215,5 @@ dictionary in JavaScript.
 **contribution 93** - `noughts-and-crosses.rb` - Self explanatory. WIP.
 
 **contribution 94** - `self-raise/clojure.clj` - A tiny bug fix.
+
+**contribution 95** - `failure.cc` - A grade-calculation program in C++.
