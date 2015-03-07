@@ -217,3 +217,5 @@ dictionary in JavaScript.
 **contribution 94** - `self-raise/clojure.clj` - A tiny bug fix.
 
 **contribution 95** - `failure.cc` - A grade-calculation program in C++.
+
+**contribution 96** - `midpoint.c` - Self explanatory.
