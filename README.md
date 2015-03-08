@@ -219,3 +219,5 @@ dictionary in JavaScript.
 **contribution 95** - `failure.cc` - A grade-calculation program in C++.
 
 **contribution 96** - `midpoint.c` - Self explanatory.
+
+**contribution 97** - `midpoint.c` - Now uses a `point` struct - more readable than an array.
