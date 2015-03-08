@@ -1,22 +1,28 @@
 #include <stdio.h>
 
-int * midpoint(int *p1, int *p2) {
-  static int mp[2];
-  mp[0] = (p1[0] + p2[0]) / 2;
-  mp[1] = (p1[1] + p2[1]) / 2;
+typedef struct {
+  float x;
+  float y;
+} point;
+
+point midpoint(point p1, point p2) {
+  point mp = {
+    .x = (p1.x + p2.x) / 2,
+    .y = (p1.y + p2.y) / 2
+  };
 
   return mp;
 }
 
 int main() {
-  int point1[2] = { 13, 21 };
-  int point2[2] = { 9, 25 };
+  point point1 = { .x = 13, .y = 21 };
+  point point2 = { .x = 9,  .y = 25 };
 
-  int * mp = midpoint(point1, point2);
+  point mp = midpoint(point1, point2);
 
-  printf("midpoint of (%d, %d) and (%d, %d):"
-         "\n(%d, %d)\n",
-         point1[0], point1[1],
-         point2[0], point2[1],
-         mp[0], mp[1]);
+  printf("midpoint of (%g, %g) and (%g, %g):"
+         "\n(%g, %g)\n",
+         point1.x, point1.y,
+         point2.x, point2.y,
+         mp.x, mp.y);
 }
