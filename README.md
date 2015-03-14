@@ -221,3 +221,12 @@ dictionary in JavaScript.
 **contribution 96** - `midpoint.c` - Self explanatory.
 
 **contribution 97** - `midpoint.c` - Now uses a `point` struct - more readable than an array.
+
+**contribution 98** - `structs.c` - A C program that I wrote to learn the basics
+of structures (and the `typedef` keyword) in the C programming language.
+
+**contribution 99** - `times_two.c` - This C program simply uses pointers to
+double a variable. I actually now understand pointers a lot better.
+
+***contribution 100*** - `upto.c` - Some C Pre-processor magic, that results in
+easier (and shorter) `for` loops.
