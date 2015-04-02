@@ -238,3 +238,5 @@ easier (and shorter) `for` loops.
 **contribution 102** - `sdl/blue_rectangle.c` - An SDL2 program that draws a blue rectangle.
 
 **contribution 103** - `structs.c` - The addition of a function that changes values in a struct.
+
+**contribution 104** - `gui-test.go` - A GUI program in go.
