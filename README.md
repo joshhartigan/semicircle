@@ -240,3 +240,5 @@ easier (and shorter) `for` loops.
 **contribution 103** - `structs.c` - The addition of a function that changes values in a struct.
 
 **contribution 104** - `gui-test.go` - A GUI program in go.
+
+**contribution 105** - `SumInputs.java` - Print the sum of all command-line arguments.
