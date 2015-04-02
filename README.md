@@ -236,3 +236,5 @@ easier (and shorter) `for` loops.
 **contribution 101** - `upto.c` - An improved `upto` macro for shorter `for` loops.
 
 **contribution 102** - `sdl/blue_rectangle.c` - An SDL2 program that draws a blue rectangle.
+
+**contribution 103** - `structs.c` - The addition of a function that changes values in a struct.
