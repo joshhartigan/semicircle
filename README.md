@@ -242,3 +242,5 @@ easier (and shorter) `for` loops.
 **contribution 104** - `gui-test.go` - A GUI program in go.
 
 **contribution 105** - `SumInputs.java` - Print the sum of all command-line arguments.
+
+**contribution 106** - `try-sml.sml` - A first look at the Standard ML language.
