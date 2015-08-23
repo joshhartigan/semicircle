@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <curses.h>
@@ -24,7 +23,7 @@ int main() {
 
   if ((window = initscr()) == NULL) {
     fprintf(stderr, "error initialising curses.\n");
-    exit(EXIT_FAILURE);
+    return 1;
   }
 
   start_color();
@@ -33,15 +32,17 @@ int main() {
     init_colors();
     for (int i = 0; i < 13; i++) {
       color_set(i, NULL);
-      mvaddstr(6 + i, 32, "fabulous");
+      mvaddstr(6 + i, 32, "rainbow");
+      refresh();
+      usleep(100 * 1000);
+      clear();
     }
   }
 
-  refresh();
-  //sleep(3);
   getch();
 
   delwin(window);
   endwin();
   refresh();
 }
+
