@@ -1,3 +1,10 @@
+/* compile with:
+ *
+ * cc -Wall -Wextra -Wformat -Wno-missing-braces -Werror \
+ *    -pedantic -std=gnu11 -lncurses \
+ *    fabulous.c -o fabulous
+ */
+
 #include <stdio.h>
 #include <unistd.h>
 #include <curses.h>

@@ -248,3 +248,5 @@ easier (and shorter) `for` loops.
 **contribution 107** - `lines.c` - ASCII Line-drawing with Bresenham's Line algorithm
 
 **contribution 108** - `reverse.c` - Reverse the string given by the user.
+
+**contribution 109** - `fabulous.c` - Animation effect for the coloured text.
