@@ -1,4 +1,4 @@
-**contribution 1** - `main.cpp` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-programming-Example-Depth/dp/020170353X)
+**contribution 1** - `main.cc` - Beginnings of learning C++ from [Accelerated C++](http://www.amazon.co.uk/Accelerated-Practical-programming-Example-Depth/dp/020170353X)
 
 **contribution 2** - `fibonacci.c` - An annotated C program for calculating fibonacci sequences.
 
@@ -38,7 +38,7 @@
 
 **contribution 19** - `Game.java`, `Entity.java`, and `Keyboard.java` - these make up a *very* simple platformer.
 
-**contribution 20** - `rand7.cpp` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
+**contribution 20** - `rand7.cc` - Implement a rand7() function (random number from 1 -> 7), by using a rand5() function. There will be a
 writeup of this program.
 
 --
@@ -57,7 +57,7 @@ writeup of this program.
 
 **contribution 27** - `pythagoras.go` - Multiple functions written in Go that take advantage of Pythagoras's theorem.
 
-**contribution 28** - `nextPrime.cpp` - A function that takes in a number as an argument, and returns the next prime number.
+**contribution 28** - `nextPrime.cc` - A function that takes in a number as an argument, and returns the next prime number.
 
 **contribution 29** - `myTake.hs` - An reimplementation of Haskell's `take` function.
 
@@ -75,15 +75,15 @@ writeup of this program.
 
 **contribution 35** - `sdl/*` - A Graphical program, using libSDL, in C++. My first graphical program not in Java or Python.
 
-**contribution 36** - `timeMeasurement.cpp` - Given x number of seconds, this program will show how many hours and minutes (and remainder seconds) are in x.
+**contribution 36** - `timeMeasurement.cc` - Given x number of seconds, this program will show how many hours and minutes (and remainder seconds) are in x.
 
-**contribution 37** - `shortPath.cpp` - Finds the shortest non-diagonal path between two points in a matrix.
+**contribution 37** - `shortPath.cc` - Finds the shortest non-diagonal path between two points in a matrix.
 
-**contribution 38** - `shortPath.cpp` - Implementation of diagonal paths.
+**contribution 38** - `shortPath.cc` - Implementation of diagonal paths.
 
 **contribution 39** - `monkey.go` - Cleanup, fixing of variable usage, better function naming.
 
-**contribution 40** - `pyramid.cpp` - Classic text-based pyramid drawing program.
+**contribution 40** - `pyramid.cc` - Classic text-based pyramid drawing program.
 
 --
 
@@ -117,7 +117,7 @@ writeup of this program.
 **contribution 53** - `greeter.rb` - A really, *really* simple Ruby program with a class, object
 instantiation, and method definitions / calls.
 
-**contribution 54** - `nextPrime.rb` - A rewrite of `nextPrime.cpp` in Ruby.
+**contribution 54** - `nextPrime.rb` - A rewrite of `nextPrime.cc` in Ruby.
 
 **contribution 55** - `palindrome/coffeescript.coffee` and `palindrome/ruby.rb` - More simple
 palindrome programs.
@@ -142,9 +142,9 @@ Read the comments inside the file to understand.
 
 **contribution 62** - `bit-count.c` - Count the number of 1 bits in the binary form of a number.
 
-**contribution 63** - `extractor.cpp` - Extract elements from a vector.
+**contribution 63** - `extractor.cc` - Extract elements from a vector.
 
-**contribution 64** - `function-templates.cpp` - Learning about generic functions / function
+**contribution 64** - `function-templates.cc` - Learning about generic functions / function
 templating in C++.
 
 **contribution 65** - `connections.html` - Drawing connections between points and the cursor. Via
@@ -155,7 +155,7 @@ web experiment.
 
 **contribution 67** - `mann.vim` - *not actually a program* - a small vim color scheme
 
-**contribution 68** - `dupe-sort.cpp` - 'Sort' an array by creating a duplicate ordered array.
+**contribution 68** - `dupe-sort.cc` - 'Sort' an array by creating a duplicate ordered array.
 
 **contribution 69** - `is-sudo.c` - I learnt how to detect root privileges, and implemented it in C.
 
