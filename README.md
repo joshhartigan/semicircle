@@ -252,3 +252,7 @@ easier (and shorter) `for` loops.
 **contribution 109** - `fabulous.c` - Animation effect for the coloured text.
 
 **contribution 110** - `game.c` - The beginnings of a (*much* simpler) dwarf fortress clone with `curses.h`.
+
+--
+
+**contribution 111** - `game.c` - An inventory, choppable trees, a status bar, an inventory.
