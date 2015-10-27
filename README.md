@@ -256,3 +256,5 @@ easier (and shorter) `for` loops.
 --
 
 **contribution 111** - `game.c` - An inventory, choppable trees, a status bar, an inventory.
+
+**contribution 112** - `lines-graphical.c` - Give this program coordinates (x1, y1, x2, y2) as arguments and it will draw the line in a window.
