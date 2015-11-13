@@ -25,7 +25,5 @@
     ; which is why we read
     ; (sort s1).
     (sort s1) (sort s2)
-
-; the following code is strangely lisp-esque
   )
 )
